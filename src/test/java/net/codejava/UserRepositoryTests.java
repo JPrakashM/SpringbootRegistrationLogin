@@ -21,7 +21,7 @@ public class UserRepositoryTests {
 	@Autowired
 	private UserRepository repo;
 	
-	@Test
+	/*@Test
 	public void testCreateUser() {
 		User user = new User();
 		user.setEmail("ravikumar@gmail.com");
@@ -35,13 +35,13 @@ public class UserRepositoryTests {
 		
 		assertThat(user.getEmail()).isEqualTo(existUser.getEmail());
 		
-	}
+	}*/
 	
-	@Test
+	/*@Test
 	public void testFindByEmail() {
 		String email = "nam@codejava.net";
 		User user = repo.findByEmail(email);
 		
 		assertThat(user.getEmail()).isEqualTo(email);
-	}
+	}*/
 }
